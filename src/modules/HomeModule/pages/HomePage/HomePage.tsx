@@ -9,7 +9,7 @@ export const HomePage: React.FC<IProps> = ({ msg }) => {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className={"container"}>
       <h1>{msg}</h1>
       <div className="card">
         <p>
@@ -23,6 +23,6 @@ export const HomePage: React.FC<IProps> = ({ msg }) => {
           count is {count}
         </button>
       </div>
-    </>
+    </div>
   );
 };
