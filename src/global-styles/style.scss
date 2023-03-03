@@ -5,9 +5,17 @@
 @import "styles/root.scss";
 @import "styles/fonts.scss";
 
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
-  line-height: 140%;
   letter-spacing: -0.02em;
   background-color: #ECEDEF;
 }
