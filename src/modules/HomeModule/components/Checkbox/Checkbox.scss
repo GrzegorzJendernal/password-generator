@@ -3,17 +3,26 @@
   flex-direction: row;
   align-items: flex-end;
   gap: 12px;
+
+  &__button {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color-stroke);
+    border-radius: 6px;
+    background-color: var(--color-white);
+    cursor: pointer;
+
+    &--checked {
+      background-color: var(--color-primary);
+      border: 1px solid var(--color-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-
-
-input[type=checkbox] {
-  width: 18px;
-  height: 18px;
-  border: 1px solid var(--color-stroke);
-  border-radius: 6px;
-}
-
-input[type=checkbox]:checked {
-    background-color: var(--color-primary);
-    border: 1px solid var(--color-primary);
   }
+
+  &__mark {
+    width: 9px;
+    height: 9px;
+  }
+}
