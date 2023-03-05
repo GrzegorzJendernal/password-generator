@@ -3,6 +3,7 @@ import "./HomePage.scss";
 import { Header } from "@/modules/HomeModule/components";
 import { Slider } from "@/modules/HomeModule/components/Slider/Slider";
 import { Checkbox } from "@/modules/HomeModule/components/Checkbox/Checkbox";
+import { CheckList } from "@/modules/HomeModule/components/CheckList/CheckList";
 
 export const HomePage: React.FC = () => {
 
@@ -10,8 +11,20 @@ export const HomePage: React.FC = () => {
 		<div className={"container"}>
 			<Header/>
 			<Slider/>
-			<Checkbox
-			text={"sialala"}/>
+			<CheckList>
+				<Checkbox
+					text={"Uppercase Letters"}
+				/>
+				<Checkbox
+					text={"Lowercase Letters"}
+				/>
+				<Checkbox
+					text={"Numbers"}
+				/>
+				<Checkbox
+					text={"Symbols"}
+				/>
+			</CheckList>
 		</div>
 	);
 };
