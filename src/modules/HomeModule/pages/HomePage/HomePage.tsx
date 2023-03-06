@@ -4,6 +4,7 @@ import { Header } from "@/modules/HomeModule/components";
 import { Slider } from "@/modules/HomeModule/components/Slider/Slider";
 import { Checkbox } from "@/modules/HomeModule/components/Checkbox/Checkbox";
 import { CheckList } from "@/modules/HomeModule/components/CheckList/CheckList";
+import { StrengthLevel } from "@/modules/HomeModule/components/StrengthLevel/StrengthLevel";
 
 export const HomePage: React.FC = () => {
 
@@ -25,6 +26,7 @@ export const HomePage: React.FC = () => {
 					text={"Symbols"}
 				/>
 			</CheckList>
+			<StrengthLevel />
 		</div>
 	);
 };
