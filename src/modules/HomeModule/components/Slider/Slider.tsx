@@ -38,8 +38,8 @@ export const Slider: React.FC = () => {
 
 	return (
 		<label className={"slider"}>
-      <span className={"slider__title"}>
-        <span className={"slider__text"}>Character Length</span>
+      <span className={"slider__text"}>
+        <span className={"slider__title"}>Character Length</span>
         <span className={"slider__value"}>{passwordLength}</span>
       </span>
 			<input

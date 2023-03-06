@@ -4,13 +4,13 @@
   margin: 24px;
   grid-gap: 8px;
 
-  &__title {
+  &__text {
     display: flex;
     justify-content: space-between;
     color: var(--color-black);
   }
 
-  &__text {
+  &__title {
     font-size: 16px;
     line-height: 22px;
     margin-top: 9px;
