@@ -5,6 +5,7 @@ import { Slider } from "@/modules/HomeModule/components/Slider/Slider";
 import { Checkbox } from "@/modules/HomeModule/components/Checkbox/Checkbox";
 import { CheckList } from "@/modules/HomeModule/components/CheckList/CheckList";
 import { StrengthLevel } from "@/modules/HomeModule/components/StrengthLevel/StrengthLevel";
+import { PasswordField } from "@/modules/HomeModule/components/PasswordField/PasswordField";
 
 export const HomePage: React.FC = () => {
 
@@ -26,7 +27,8 @@ export const HomePage: React.FC = () => {
 					text={"Symbols"}
 				/>
 			</CheckList>
-			<StrengthLevel />
+			<StrengthLevel/>
+			<PasswordField/>
 		</div>
 	);
 };
