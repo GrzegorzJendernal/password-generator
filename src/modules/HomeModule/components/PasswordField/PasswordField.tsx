@@ -1,7 +1,7 @@
 import React from "react";
 import "./PasswordField.scss";
 
-export const PasswordField = () => {
+export const PasswordField: React.FC = () => {
 	const password = "PTx1O234DSR%";
 
 	return (
