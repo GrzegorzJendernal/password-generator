@@ -1,0 +1,32 @@
+.copyButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  background-color: var(--color-black);
+  width: 410px;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  margin: 23px 24px;
+  cursor: pointer;
+  padding: 0;
+
+  &:hover {
+    background-color: #414253;
+    transition: 0.4s;
+  }
+
+  &__image {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-white);
+  }
+}

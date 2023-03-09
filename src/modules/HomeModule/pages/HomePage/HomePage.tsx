@@ -6,6 +6,7 @@ import { Checkbox } from "@/modules/HomeModule/components/Checkbox/Checkbox";
 import { CheckList } from "@/modules/HomeModule/components/CheckList/CheckList";
 import { StrengthLevel } from "@/modules/HomeModule/components/StrengthLevel/StrengthLevel";
 import { PasswordField } from "@/modules/HomeModule/components/PasswordField/PasswordField";
+import { CopyButton } from "@/modules/HomeModule/components/CopyButton/CopyButton";
 
 export const HomePage: React.FC = () => {
 
@@ -29,6 +30,7 @@ export const HomePage: React.FC = () => {
 			</CheckList>
 			<StrengthLevel/>
 			<PasswordField/>
+			<CopyButton/>
 		</div>
 	);
 };
