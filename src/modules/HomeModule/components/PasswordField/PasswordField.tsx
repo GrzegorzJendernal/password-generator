@@ -7,7 +7,11 @@ export const PasswordField = () => {
 	return (
 		<div className={"passwordField"}>
 			<span className={"passwordField__text"}>{password}</span>
-				<img className={"passwordField__refresh"} src={"/src/assets/images/vector.svg"} alt={"refresh"} />
+				<img
+					className={"passwordField__refresh"}
+					src={"/src/assets/images/vector.svg"}
+					alt={"refresh"}
+				/>
 		</div>
 	)
 };
