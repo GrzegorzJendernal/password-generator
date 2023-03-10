@@ -10,10 +10,11 @@ import { CopyButton } from "@/modules/HomeModule/components/CopyButton/CopyButto
 
 export const HomePage: React.FC = () => {
 
+
 	return (
 		<div className={"container"}>
 			<Header/>
-			<Slider/>
+			<Slider />
 			<CheckList>
 				<Checkbox
 					text={"Uppercase Letters"}

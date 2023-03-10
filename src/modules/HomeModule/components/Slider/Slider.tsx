@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import "./Slider.scss";
 
 export const Slider: React.FC = () => {
 	const [passwordLength, setPasswordLength] = useState<number>(6);
-
 	const handleSliderChange = (event: React.FormEvent<HTMLInputElement>) => {
 		const newValue = event.currentTarget.valueAsNumber;
 		setPasswordLength(newValue);
